@@ -1,11 +1,21 @@
-# 🎥 Extrator de vídeo, áudio e texto  
-Projeto em python que baixa vídeos do YouTube, extrai o áudio e converte em texto.
+# Transcrivox
 
-## 📝 Funcionalidades
+![Banner](https://img.shields.io/badge/YouTube-Transcrivox-blue?style=for-the-badge&logo=youtube)
+![Banner](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Banner](https://img.shields.io/badge/yt--dlp-gray?style=for-the-badge&logo=youtube)
+![Banner](https://img.shields.io/badge/MoviePy-gray?style=for-the-badge&logo=python)
+![Banner](https://img.shields.io/badge/SpeechRecognition-gray?style=for-the-badge&logo=python)
+![Banner](https://img.shields.io/badge/Pydub-gray?style=for-the-badge&logo=python)
+![Banner](https://img.shields.io/badge/FFmpeg-gray?style=for-the-badge&logo=ffmpeg)
 
-- Baixar vídeos do YouTube  
-- Extrair áudio de vídeos  
-- Converter áudio em texto  
+Transcrivox é uma biblioteca que permite baixar vídeos do YouTube, extrair o áudio e transcrever automaticamente para texto. Ideal para criadores de conteúdo, pesquisadores e profissionais que precisam converter vídeos em texto rapidamente.
+
+## 🚀 Recursos
+
+- 📥 **Download de vídeos do YouTube**
+- 🎧 **Extração e conversão de áudio**
+- 📝 **Transcrição automática para texto**
+- ⚡ **Rápido, eficiente e fácil de integrar**
 
 ## 🛠️ Requisitos
 
@@ -24,11 +34,11 @@ Antes de iniciar, verifique se possui os seguintes componentes instalados:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ErikPervious/video-extractor.git
+   git clone https://github.com/ErikPervious/Transcrivox-python.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd video-extractor
+   cd Transcrivox-python
    ```
 3. Execute o arquivo main.py:
    ```bash
