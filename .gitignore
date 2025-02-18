@@ -5,3 +5,4 @@ video.*
 *.log
 temp-*
 *.info-json
+__pycache__/
