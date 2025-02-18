@@ -6,3 +6,8 @@ video.*
 temp-*
 *.info-json
 __pycache__/
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mkv

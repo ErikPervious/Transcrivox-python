@@ -29,6 +29,7 @@ def remover_caracteres_invalidos(nome_video):
     novo_nome = novo_nome.replace("|","")  # Remover ponto de interrogação
     novo_nome = novo_nome.replace("?","")  # Remover ponto de interrogação
     novo_nome = novo_nome.replace("*","")  # Remover asterisco
+    return novo_nome
 
 def baixar_video(link_video):
     arquivo = f"video" # Define o nome do arquivo
