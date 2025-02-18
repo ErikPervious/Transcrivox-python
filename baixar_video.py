@@ -18,7 +18,7 @@ def obter_nome_video(json_info):
     return ""  # Retorna uma string vazia se houver erro na conversão
 
 def remover_caracteres_invalidos(nome_video):
-    novo_nome = nome_video.replace(" ", "_")  # Substituir espaços por sublinhados
+    novo_nome = nome_video.replace(" ", " ")  # Substituir espaços por sublinhados
     novo_nome = novo_nome.replace(".", "")  # Substituir espaços por sublinhados
     novo_nome = novo_nome.replace("/", "")  # Remover barras
     novo_nome = novo_nome.replace("\\", "")  # Remover barras invertidas
